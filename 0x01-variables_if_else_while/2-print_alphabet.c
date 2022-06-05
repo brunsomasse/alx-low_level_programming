@@ -10,8 +10,6 @@
 int main(void)
 {
 int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
 int char;
 for (ch = 97; ch <= 122; ch++)
 {
