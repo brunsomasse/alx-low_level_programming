@@ -14,7 +14,7 @@ float e;
 printf("size of a char: %lu byte(s)\n", sizeof(d)); 
 }
 {
-printf("size of a long int: %lu byte(s)\n", sizeof(a));
+printf("size of an int: %lu byte(s)\n", sizeof(a));
 }
 {
 printf("size of a long int: %lu byte(s)\n", sizeof(b));
