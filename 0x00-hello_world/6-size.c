@@ -4,12 +4,13 @@
  *Return: Always 0 (Success)
  */
 int main(void)
-
+{
 int a;
 long int b;
 long long int c;
 char d;
 float e;
+}
 {
 printf("size of a char: %lu byte(s)\n", (long unsigned int)sizeof(d));
 printf("size of an int: %lu byte(s)\n", (long unsigned int)sizeof(a));
