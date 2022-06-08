@@ -12,5 +12,5 @@ if (m < 0)
 m = -m;
 x = m % '0';
 _putchar(x + '0');
-return(x);
+return (x);
 }
