@@ -17,8 +17,7 @@ _putchar(a + '0');
 else if (a >= 10)
 {
 _putchar((a / 10) + '0');
-_putchar((a % 10) + '0');	
-}
+_putchar((a % 10) + '0');
 if (b < 10)
 {
 _putchar(':');
@@ -29,7 +28,7 @@ else if (b > 0)
 {
 _putchar(':');
 _putchar((b / 10) + '0');
-_putchar(b);
+_putchar((b % 10) + '0');
 }
 }
 _putchar('\n');
