@@ -18,6 +18,7 @@ else if (a >= 10)
 {
 _putchar((a / 10) + '0');
 _putchar((a % 10) + '0');
+}
 if (b < 10)
 {
 _putchar(':');
