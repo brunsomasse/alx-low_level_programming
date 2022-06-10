@@ -1,10 +1,12 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * fizz_buzz -  a program that prints the numbers from 1 to 100
  * multiple of three print Fizz
  * multiples of five print Buzz
  * multiples of both three and five print FizzBuzz
+ *
  * Return: Always 0
  */
 
@@ -34,9 +36,6 @@ printf("%d\n", x);
 printf("\n");
 return (0);
 }
-
-
-
 
 
 
