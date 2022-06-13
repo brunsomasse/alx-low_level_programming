@@ -6,7 +6,7 @@
  * @s: string to print in rev
  */
 
-void print_rev(char *s);
+void print_rev(char *s)
 {
 int i, n;
 
