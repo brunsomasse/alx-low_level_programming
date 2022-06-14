@@ -14,7 +14,7 @@ if (x % 2 == 1)
 y = x / 2 + 1;
 else
 y = x / 2;
-for (a = y, a < x, a++)
+for (a = y; a < x; a++)
 _putchar(str[a]);
 _putchar('\n');
 }
