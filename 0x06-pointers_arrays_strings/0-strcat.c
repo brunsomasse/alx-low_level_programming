@@ -4,7 +4,7 @@
 /**
  * _strcat -  a function that concatenates two strings
  * @dest: destination string
- * @scr: source string
+ * @src: source string
  * Return: String
  */
 
@@ -12,10 +12,10 @@ char *_strcat(char *dest, char *src)
 {
 int i, len1, len2;
 len1 = strlen(*dest);
-len2 = strlen(*scr);
+len2 = strlen(*src);
 for (i = 0; i <= len2; i++)
 {
-dest[len1 + 1] = scr[i];
+dest[len1 + 1] = src[i];
 }
 _putchar('\n');
 return (dest);
