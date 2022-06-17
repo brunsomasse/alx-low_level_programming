@@ -1,8 +1,9 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * cap_string - a function that capitalizes all words of a string
- * @x: String parameter
+ * @x: string parameter
  * Return: Capitalized version
  */
 
