@@ -9,10 +9,14 @@
 
 char *_memcpy(char *dest, char *src, unsigned int n)
 <<<<<<< HEAD
+<<<<<<< HEAD
 char a;
 =======
 
 >>>>>>> 9006691becb7862b963b165610847d9bc3a88e19
+=======
+
+>>>>>>> 0bed8a3a23aeccf1bbee21a77c5399bdc1e9529a
 {
 unsigned int i;
 
