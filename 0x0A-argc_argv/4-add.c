@@ -13,7 +13,6 @@ int result = 0, num, a, b, c;
 for (a = 1; a < argc; a++)
 {
 for (b = 0; argv[a][b] != '\0'; b++)
-}
 {
 if (argv[a][b] > '9' || argv[a][b] < '0')
 {
@@ -21,11 +20,12 @@ printf("%s\n", "Error");
 return (1);
 }
 }
-for (c = 0; c < argc; c++)
+}
+for (c = 1; c < argc; c++)
 {
 num = atoi(argv[c]);
 result += num;
 }
-printf("%d\n", sum);
+printf("%d\n", num);
 return (0);
 }
